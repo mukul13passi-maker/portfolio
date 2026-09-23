@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mukul Passi — Full Stack Web Developer portfolio. 3.9 years of market research experience and currently building full-stack web development expertise." />
+  <title>Mukul Passi | Full Stack Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="logo" href="#home">MP<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> FULL STACK WEB DEVELOPER</div>
+        <h1>Turning ideas into <span>clean, useful web experiences.</span></h1>
+        <p class="hero-text">
+          I’m Mukul Passi — a professional with 3.9 years of experience in market research,
+          now building my next chapter in full-stack web development.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View my work <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>3.9+</strong><span>Years in market research</span></div>
+          <div><strong>Full Stack</strong><span>Development focus</span></div>
+          <div><strong>India</strong><span>Based in Punjab</span></div>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="code-card">
+          <div class="window-bar"><i></i><i></i><i></i><span>developer.js</span></div>
+          <pre><code><span class="purple">const</span> developer = {
+  <span class="key">name</span>: <span class="string">"Mukul Passi"</span>,
+  <span class="key">role</span>: <span class="string">"Full Stack Developer"</span>,
+  <span class="key">background</span>: <span class="string">"Market Research"</span>,
+  <span class="key">experience</span>: <span class="number">3.9</span>,
+  <span class="key">focus</span>: [
+    <span class="string">"Frontend"</span>,
+    <span class="string">"Backend"</span>,
+    <span class="string">"Problem Solving"</span>
+  ],
+  <span class="key">mindset</span>: <span class="string">"Always learning"</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="about-grid">
+        <div>
+          <h2>From research questions to <span>digital solutions.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            My professional journey started in market research, where I developed experience
+            working with research processes, business requirements, analysis, and client-oriented work.
+          </p>
+          <p>
+            I’m now expanding that problem-solving mindset into software development through
+            full-stack web development training. I’m focused on learning how modern web applications
+            are designed, built, connected to APIs and databases, and delivered as real products.
+          </p>
+          <div class="quote">“Curiosity gets the idea started. Consistency gets it shipped.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-label">02 / SKILLS</div>
+        <div class="section-heading">
+          <h2>My current <span>toolbox.</span></h2>
+          <p>Technologies I’m learning and using as I build my full-stack development foundation.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-number">01</div>
+            <h3>Frontend</h3>
+            <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span></div>
+            <p>Responsive interfaces, component-based UI, interaction and modern web fundamentals.</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">02</div>
+            <h3>Backend</h3>
+            <div class="tags"><span>Node.js</span><span>APIs</span><span>Server-side logic</span></div>
+            <p>Learning how applications handle requests, business logic, data and integrations.</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">03</div>
+            <h3>Problem Solving</h3>
+            <div class="tags"><span>Research</span><span>Analysis</span><span>Requirements</span><span>Debugging</span></div>
+            <p>Bringing a research-driven approach to understanding problems before building solutions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-label">03 / PROJECTS</div>
+      <div class="section-heading">
+        <h2>Selected <span>builds.</span></h2>
+        <p>A portfolio structure designed to grow with my development journey.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project featured">
+          <div class="project-top"><span>01</span><span>FULL STACK</span></div>
+          <div class="project-visual visual-one"><div class="mock-window"><div></div><div></div><div></div><b>Dashboard</b></div></div>
+          <h3>Research Insights Dashboard</h3>
+          <p>A concept product combining my market-research background with web development: organize research inputs, visualize insights and present findings through a clean dashboard.</p>
+          <div class="project-tags"><span>React</span><span>JavaScript</span><span>Node.js</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span>02</span><span>FRONTEND</span></div>
+          <div class="project-visual visual-two"><div class="phone-mock"><span>MP</span></div></div>
+          <h3>Responsive Portfolio</h3>
+          <p>A responsive personal site focused on strong typography, accessibility, smooth motion and a clear developer story.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span>03</span><span>LEARNING</span></div>
+          <div class="project-visual visual-three"><div class="terminal">$ npm run build<br><span>✓ project ready</span></div></div>
+          <h3>Full-Stack Practice Apps</h3>
+          <p>Small applications built while strengthening frontend, backend, API and JavaScript fundamentals.</p>
+          <div class="project-tags"><span>React</span><span>Node.js</span><span>APIs</span></div>
+        </article>
+      </div>
+      <p class="project-note">Project descriptions above are portfolio-ready concept entries; replace them with your real deployed projects as you complete them.</p>
+    </section>
+
+    <section class="section timeline-section" id="experience">
+      <div class="container">
+        <div class="section-label">04 / EXPERIENCE</div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">3.9 YEARS</div>
+            <div class="timeline-content">
+              <h3>Market Research</h3>
+              <p>Professional experience in the market research domain, developing a practical understanding of research processes, requirements, analysis and client-focused work.</p>
+              <div class="tags"><span>Research</span><span>Analysis</span><span>Client Work</span></div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">CURRENT</div>
+            <div class="timeline-content">
+              <h3>Full Stack Web Development</h3>
+              <p>Building full-stack development skills through structured training and hands-on learning across HTML, CSS, JavaScript, React and Node.js.</p>
+              <div class="tags"><span>Frontend</span><span>Backend</span><span>React</span><span>Node.js</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey container">
+      <div class="journey-card">
+        <div>
+          <div class="section-label">05 / BEYOND CODE</div>
+          <h2>Build. Learn. <span>Stay consistent.</span></h2>
+        </div>
+        <p>
+          Outside technology, cricket has been a long-running passion. The same consistency,
+          practice and willingness to improve that I value in cricket also shape how I approach learning development.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact">
+        <div>
+          <div class="section-label">06 / CONTACT</div>
+          <h2>Let’s build something <span>meaningful.</span></h2>
+          <p>Interested in connecting about a developer opportunity, collaboration, or project?</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-row"><span>NAME</span><strong>Mukul Passi</strong></div>
+          <div class="contact-row"><span>ROLE</span><strong>Full Stack Web Developer</strong></div>
+          <div class="contact-row"><span>LOCATION</span><strong>Punjab, India</strong></div>
+          <div class="contact-actions">
+            <button class="btn primary" id="copyName">Copy my name</button>
+            <a class="btn secondary" href="#home">Back to top ↑</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 Mukul Passi</span>
+    <span>Designed & built with curiosity.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
